@@ -1,0 +1,74 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.create {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #09a0a0;
+}
+
+.create:hover {
+    background-color: #09a0a0;
+    color: white;
+}
+.read {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #09a0a0;
+}
+.read:hover {
+    background-color: #09a0a0;
+    color: white;
+}
+.update {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #09a0a0;
+}
+.update:hover {
+    background-color: #09a0a0;
+    color: white;
+}
+.delete {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #bd0101;
+}
+
+.delete:hover {
+    background-color: #bd0101;
+    color: white;
+}
+.atras {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #09a0a0;
+}
+
+.atras:hover {
+    background-color: #09a0a0;
+    color: white;
+}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;    margin: 45px;     width: 80%; text-align: left;    border-collapse: collapse; }
+
+th { font-size: 16px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: rgb(0, 82, 75); }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: rgb(0, 82, 75); }

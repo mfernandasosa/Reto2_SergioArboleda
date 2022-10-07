@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Misión TIC 2022 - Ciclo 3 - RETO 2</title>
+    <link href="css/estilos.css" rel="stylesheet">
+	<script  src="js/peticionesAjaxClientes.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous">
+	</script>
+</head>
+<body>
+	<center>
+		<h1>GESTIÓN CLIENTES</h1>
+		<hr style="width: 500px;"><br>
+		<fieldset style="width: 600px;">
+			<legend>Información tabla clientes:</legend>
+				<table border="0">
+					<tr>
+						<th>
+							<span style="color:rgb(1, 160, 165);"><b>ID:</b>
+						</th>
+						<td>			
+							<input type="number" id="id" style="width: 55%;" placeholder="Ingresa un ID">
+							<!--<input type="button" id="btnBuscarID" value="Buscar ID" onclick="consultaID('#id')">-->
+						</td>	
+					</tr>
+					<tr>
+						<th>
+							<span style="color: rgb(1, 160, 165); align"><b>Nombre:</b>
+						</th>
+						<td>	
+							<input type="text" id="name" style="width: 95%;" placeholder="Ingresa un nombre">		
+						</td>	
+					</tr>
+					<tr>
+						<th>
+							<span style="color: rgb(1, 160, 165);"><b>E-mail:</b>
+						</th>
+						<td>	
+							<input type="text" id="email" style="width: 95%;" placeholder="Ingresa un E-mail">		
+						</td>	
+					</tr>
+					<tr>
+						<th>
+							<span style="color: rgb(1, 160, 165);"><b>Edad:</b>
+						</th>
+						<td>
+							<input type="number" id="age" style="width: 95%;" placeholder="Ingresa una edad">	
+						</td>	
+					</tr>
+					<tr>
+						
+							<input type="button" id="btnLimpiar" class="delete" value="Limpiar datos" onclick="limpiar_formulario()">
+							&nbsp;&nbsp;
+							<input type="button" id="btnBuscarALL" class="read" value="Mostrar Todos" onclick="consultar_todo()">
+							&nbsp;&nbsp;
+							<input type="button" id="btnGuardar" class="create" value="Agregar Registro" onclick="guardarInformacion()">
+							&nbsp;&nbsp;
+							<input type="button" id="btnEditar" class="update" value="Actualizar Registro" onclick="editar_Informacion()">
+							&nbsp;&nbsp;
+							<input type="button" id="btnAtras" class="atras" value="Atras" onclick="parent.open('index.html','_self')">
+							<br><br>	
+					</tr>
+				</table>
+		</fieldset>
+		<div id="resultado"></div>
+	</center>
+</body>
+</html>
+
+
+
+
+
